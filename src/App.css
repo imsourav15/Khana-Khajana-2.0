@@ -1,0 +1,135 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+}
+
+.logo{
+  width: 250px;
+  height: 150px;
+}
+
+.nav-item > ul {
+  display: flex;
+  padding-right: 20px;
+  padding-left: 150px;
+  list-style-type: none;
+  font-size: 25px;
+}
+
+.nav-item > ul > li {
+  padding: 10px;
+}
+
+.res-card {
+  width : 250px;
+  height: 600px;
+  margin: 15px;
+  padding: 5px;
+}
+
+.res-card:hover {
+  border: 1px solid black;
+  cursor : pointer;
+}
+
+.res-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter-search {
+  margin-top: 10px;
+ display: flex;
+}
+
+.filter-button { 
+  display: flex;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.res-logo {
+  width : 100%;
+}
+
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shimmer-card {
+  margin: 15px;
+  width: 200px;
+  height: 400px;
+  background-color: #f0f0f0;
+}
+
+.login {
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+a.custom-link {
+  color:  #000000;
+  text-decoration: none;
+}
+
+.custom-link:hover {
+  color: #e46d47;
+}
+
+.home-link {
+  color:  #000000;
+  text-decoration: none;
+}
+
+.about-link {
+  color:  #000000;
+  text-decoration: none;
+}
+
+.contact-link {
+  color:  #000000;
+  text-decoration: none;
+}
+
+.menu {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.h3-menu {
+  color: #ff2e63;
+}
+
+
+.ul-menu {
+  list-style: none;
+  padding: 0;
+}
+
+.li-menu {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.li-menu:hover {
+  background-color: #eaeaea;
+  cursor: pointer;
+}
+
+.menu-logo {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-left: 10px;
+}
